@@ -11,3 +11,10 @@ based on http://swagger.io/ editor and format
 
 - Simple webApp with simple features
 - REST API made simple
+
+## Run in DEBUG mode
+
+```
+FLASK_DEBUG=1 FLASK_APP=server.py flask run
+```
+

@@ -1,0 +1,17 @@
+#   A basic travis.yml boilerplate for Django projects
+#
+#   The set-up assumes a postgreSQL database.
+#
+#   Replace the following variables in the code:
+
+language: python
+
+python:
+  - 3.6
+  - 2.7
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python server.test.py test --noinput
